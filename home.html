@@ -30,7 +30,7 @@
       };
     </script>
   </head>
-  <body>
+  <body class="bg-[#F5F8FF]">
     <!-- header section goes here  -->
     <header class="max-w-screen-xl mx-auto mt-8">
       <nav class="flex flex-wrap justify-between items-center px-4">
@@ -269,9 +269,134 @@
         </div>
       </section>
 
-      <!-- join section  -->
-    </main>
+      <!-- latest deals -->
 
-    <footer></footer>
+      <section class="">
+        <div class="max-w-screen-xl mx-auto mt-28 text-center">
+          <div class="max-w-[888px] mx-auto">
+            <h1 class="text-2xl md:text-5xl font-bold font-noto">
+              <span class="text-myOrange">Latest</span> Deals
+            </h1>
+            <p class="text-sm md:text-2xl font-inter text-myGray mt-4">
+              Indulge your senses with the beauty and fragrance of our fresh
+              flower shop. From classic roses to exotic blooms, we offer a wide
+              variety of fresh.
+            </p>
+          </div>
+
+          <!-- card goes here  -->
+          <div
+            class="grid grid-cols-1 md:grid-cols-3 w-full gap-7 px-4 md:px-0 mt-16 md:mt-32"
+          >
+            <!-- left side  -->
+            <div class="flex flex-col gap-6">
+              <!-- card-1  -->
+              <div
+                class="relative bg-[url('./assets/deal-ana.png')] bg-cover bg-no-repeat h-[200px] rounded-2xl"
+              >
+                <!-- Overlay -->
+                <div class="absolute inset-0 bg-black/40 rounded-2xl"></div>
+
+                <!-- Text -->
+                <div
+                  class="relative z-10 flex flex-col justify-center items-center h-full text-white"
+                >
+                  <h1 class="font-bold text-xl">25% Off | Zabo Plant</h1>
+                  <h1 class="font-semibold text-sm underline">Shop Now</h1>
+                </div>
+              </div>
+
+              <!-- card-2  -->
+              <div
+                class="relative bg-[url('./assets/deal-ana.png')] bg-cover bg-no-repeat h-[200px] rounded-2xl text-white"
+              >
+                <div class="absolute inset-0 bg-black/40 rounded-2xl"></div>
+                <div
+                  class="relative z-10 flex flex-col justify-center items-center h-full text-white"
+                >
+                  <h1 class="font-bold text-xl">25%Off | Zabo Plant</h1>
+                  <h1 class="font-semibold text-sm underline">Shop Now</h1>
+                </div>
+              </div>
+            </div>
+            <!-- card-3  -->
+            <div
+              class="relative bg-[url('./assets/deal-ana.png')] bg-cover bg-no-repeat md:col-span-2 rounded-2xl text-white h-[200px] md:h-auto"
+            >
+              <!-- Overlay -->
+              <div class="absolute inset-0 bg-black/40 rounded-2xl"></div>
+
+              <!-- Text -->
+              <div
+                class="relative z-10 flex flex-col justify-center items-center h-full text-white"
+              >
+                <h1 class="font-bold text-xl md:text-4xl">25% Off | Zabo Plant</h1>
+                <h1 class="font-semibold text-sm md:text-2xl underline">Shop Now</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- join section  -->
+      <section
+        class="bg-[url('./assets/news-letter-bg.png')] bg-cover bg-center bg-no-repeat h-[256px] md:h-[533px] w-full mt-32 flex items-center justify-center"
+      >
+        <div class="text-center flex flex-col max-w-4xl gap-2">
+          <h1 class="font-bold font-noto text-white text-xl md:text-5xl">
+            Join the colorful Bunch
+          </h1>
+          <form action="" class="flex mt-5">
+            <input
+              type="email"
+              placeholder="Write email"
+              class="w-[218px] md:w-[644px] py-3 md:py-5 pl-5 border-r-0"
+            />
+            <button
+              class="w-[103px] md:w-[186px] py-3 md:py-5 px-3 md:px-14 bg-myOrange border-l-0 font-semibold text-white"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <!-- footer section  -->
+    <footer class="w-full bg-white">
+      <div
+        class="max-w-screen-xl mx-auto py-14 px-4 md:px-0 grid grid-cols-1 md:grid-cols-4 justify-center gap-10"
+      >
+        <div class="">
+          <img src="./assets/logo.png" alt="" />
+          <h1 class="font-normal text-myGray text-xl mt-4">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop.
+          </h1>
+        </div>
+        <!-- Footer Links Section -->
+        <div class="md:col-span-2">
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-8 text-myGray"
+          >
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">About Us</a>
+            <a href="#">Pricing</a>
+            <a href="#">Blog</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">FAQ</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Help Center</a>
+          </div>
+        </div>
+
+        <div class="flex gap-4 md:justify-center">
+          <img src="./assets/icon-linkedin.png" alt="" class="w-8 h-8" />
+          <img src="./assets/icon-twitter.png" alt="" class="w-8 h-8" />
+          <img src="./assets/icon-facebook.png" alt="" class="w-8 h-8" />
+          <img src="./assets/icon-youtube.png" alt="" class="w-8 h-8" />
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
